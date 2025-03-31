@@ -1,0 +1,45 @@
+@charset "utf-8";
+
+body{cursor: url('../img/sub/logo2copy.png') 16 16, auto;}
+
+/* aside1 */
+#aside1{margin: 0 auto;width: 1250px;height:500px;text-align: center; }
+.map{ height: 416px; width: 18%;float: left; margin-left:15%;position: relative; }
+.cup>img{position: absolute;}
+.cup>img:nth-child(1){top:62%; right: 10%;}
+.cup>img:nth-child(2){top:30%; right: 50%;}
+.cup>img:nth-child(3){top:45%; right: 0%;}
+.cup>img:nth-child(4){top:57%; right: 65%;}
+.cup>img:nth-child(5){top:10%; right: 55%;}
+.cup>img:nth-child(6){top:85%; right: 72%;}
+#line2{float:left ; margin-left: 210px; }
+
+.product{ height: 416px; width: 40%;float: right; margin-right: 55px;position: relative;}
+.description{position: absolute ;font-size: 25px; line-height: 50px; bottom: 40%;right: 40%; color: rgb(65, 65, 65);}
+.product img:not(.mugcup){height: 250px;}
+.contests,.contests1{display: none;}
+.contests>img{position: absolute;}
+.contests>img:nth-child(1){top:10%; right: 29%;}
+.contests>img:nth-child(2){top:30%; right: 65%; transform: rotate(-30deg)}
+.contests>img:nth-child(3){top:30%; right: 10%; transform: rotate(30deg);}
+
+.contests1>img{position: absolute;}
+.contests1>img:nth-child(1){top:1%; right: 29%;}
+.contests1>img:nth-child(2){top:30%; right: 75%; transform: rotate(-15deg)}
+.contests1>img:nth-child(3){top:30%; right: 10%; transform: rotate(15deg);}
+.contests1>img:nth-child(4){top:40%; right: 40%; transform: rotate(0deg);}
+
+#aside1>img[alt='line']{margin: 0 auto;}
+/* #aside1>img[src="img/sub/Rectangle 1.png"]{margin: 0% auto;} */
+
+/* aside2 */
+
+#aside2{margin: 30px auto 90px;width: 1250px;height:280px; background-image:url(../img/sub/paper.jpg); display: flex; justify-content: space-evenly; align-items:center; }
+.detailedimg{ width:30%; text-align: center; display: none;}
+
+.detailedimg>#col{height: 250px;}
+.detailedimg>#row{height: 200px;}
+
+.detailedtxt{ width:30%; text-align: center; line-height: 25px;display: none; }
+.detailedtxt h2{padding-bottom: 20px;  font-family: 'YESMyoungjo-Regular';}
+.detailedtxt p { font-family: 'Pretendard-Regular'; line-height: 27px;}

@@ -1,0 +1,587 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./css1/common.css">
+  <link rel="stylesheet" href="./css1/starsub.css">
+  <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.6.0.min.js"></script>
+
+  <script>
+
+
+  $(function () {
+    $(".cup img").css("cursor", "pointer");
+
+    $(".cup img").hover(function () {
+      $(this).css("transform", "scale(1.2)");
+    }, function () {
+      $(this).css("transform", "scale(1)");
+    });
+  });
+
+  $(function () {
+    $("#logo").css("cursor", "pointer");
+
+    
+  });
+
+
+$(function () {
+      $('.cup>img:nth-child(1)').click (function () {
+        $(".description").hide();
+        $(".contents1").fadeIn();
+        $(".contents2").hide();
+        $(".contents3").hide();
+        $(".contents4").hide();
+        $(".contents5").hide();
+        $(".contents6").hide();
+      });
+      $('.cup>img:nth-child(2)').click(function () {
+        $(".description").hide();
+        $(".contents1").hide();
+        $(".contents2").fadeIn();
+        $(".contents3").hide();
+        $(".contents4").hide();
+        $(".contents5").hide();
+        $(".contents6").hide();
+      });
+      $('.cup>img:nth-child(3)').click(function () {
+        $(".description").hide();
+        $(".contents1").hide();
+        $(".contents2").hide();
+        $(".contents3").fadeIn();
+        $(".contents4").hide();
+        $(".contents5").hide();
+        $(".contents6").hide();
+      });
+      $('.cup>img:nth-child(4)').click(function () {
+        $(".description").hide();
+        $(".contents1").hide();
+        $(".contents2").hide();
+        $(".contents3").hide();
+        $(".contents4").fadeIn();
+        $(".contents5").hide();
+        $(".contents6").hide();
+      });
+      $('.cup>img:nth-child(5)').click(function () {
+        $(".description").hide();
+        $(".contents1").hide();
+        $(".contents2").hide();
+        $(".contents3").hide()
+        $(".contents4").hide();
+        $(".contents5").fadeIn();
+        $(".contents6").hide();
+      });
+      $('.cup>img:nth-child(6)').click(function () {
+        $(".description").hide();
+        $(".contents1").hide();
+        $(".contents2").hide();
+        $(".contents3").hide();
+        $(".contents4").hide();
+        $(".contents5").hide();
+        $(".contents6").fadeIn();
+      });
+      $(function () {
+  $(".contests1 img").css("cursor", "pointer"); 
+
+  $(".contests1 img").hover(
+    function () {
+      $(this).css({
+       
+        "box-shadow": "0 0 15px 5px rgba(0, 255, 255, 0.8)", 
+        "transition": "0.3s ease-in-out" 
+      });
+    },
+    function () {
+      $(this).css({
+       
+        "box-shadow": "none" 
+      });
+    }
+  );
+  $(".contests img").css("cursor", "pointer"); 
+
+  $(".contests img").hover(
+    function () {
+      $(this).css({
+       
+        "box-shadow": "0 0 15px 5px rgba(0, 255, 255, 0.8)", 
+        "transition": "0.3s ease-in-out" 
+      });
+    },
+    function () {
+      $(this).css({
+       
+        "box-shadow": "none" 
+      });
+    }
+  );
+
+
+
+
+
+
+});
+     
+
+
+ 
+
+
+
+      $('.contents5>img:nth-child(1)').click(function () {
+        $(".detailedimg").show();
+        $("#row").attr("src","./img/sub/seoulcup.png");
+        $("#row").show();
+        $("#col").hide();        
+        $(".detailedtxt:nth-of-type(2)").show();
+        $(".detailedtxt:not(:nth-of-type(2))").hide();
+      
+      });
+      $('.contents5>img:nth-child(2)').click(function () {
+        $(".detailedimg").show();
+        $("#col").attr("src","./img/sub/seoulntum.png");
+        $("#col").show();
+        $("#row").hide();        
+        $(".detailedtxt:nth-of-type(3)").show();
+        $(".detailedtxt:not(:nth-of-type(3))").hide();
+      
+      });
+
+      $('.contents5>img:nth-child(2)').click(function () {
+        $(".detailedimg").show();
+        $("#col").attr("src","./img/sub/seoulntum.png");
+        $("#col").show();
+        $("#row").hide();        
+        $(".detailedtxt:nth-of-type(4)").show();
+        $(".detailedtxt:not(:nth-of-type(4))").hide();
+      
+      });
+
+      $('.contents5>img:nth-child(3)').click(function () {
+        $(".detailedimg").show();
+        $("#col").attr("src","./img/sub/seoultum.png");
+        $("#col").show();
+        $("#row").hide();        
+        $(".detailedtxt:nth-of-type(3)").show();
+        $(".detailedtxt:not(:nth-of-type(3))").hide();
+      
+      });
+
+      $('.contents5>img:nth-child(4)').click(function () {
+        $(".detailedimg").show();
+        $("#col").attr("src","./img/sub/seoulkey.png");
+        $("#col").show();
+        $("#row").hide();        
+        $(".detailedtxt:nth-of-type(5)").show();
+        $(".detailedtxt:not(:nth-of-type(5))").hide();
+      
+      });
+
+      $('.contents2>img:nth-child(1)').click(function () {
+        $(".detailedimg").show();
+        $("#row").attr("src","./img/sub/chungchengcup.png");
+        $("#row").show();
+        $("#col").hide();        
+        $(".detailedtxt:nth-of-type(6)").show();
+        $(".detailedtxt:not(:nth-of-type(6))").hide();
+      
+      });
+      $('.contents2>img:nth-child(2)').click(function () {
+        $(".detailedimg").show();
+        $("#col").attr("src","./img/sub/chungchengtum.png");
+        $("#col").show();
+        $("#row").hide();        
+        $(".detailedtxt:nth-of-type(7)").show();
+        $(".detailedtxt:not(:nth-of-type(7))").hide();
+      
+      });
+
+      $('.contents2>img:nth-child(3)').click(function () {
+        $(".detailedimg").show();
+        $("#col").attr("src","./img/sub/chungchengkey.png");
+        $("#col").show();
+        $("#row").hide();        
+        $(".detailedtxt:nth-of-type(8)").show();
+        $(".detailedtxt:not(:nth-of-type(8))").hide();
+      
+      });
+
+      
+      $('.contents3>img:nth-child(1)').click(function () {
+        $(".detailedimg").show();
+        $("#row").attr("src","./img/sub/gyeongjumug.png");
+        $("#row").show();
+        $("#col").hide();        
+        $(".detailedtxt:nth-of-type(9)").show();
+        $(".detailedtxt:not(:nth-of-type(9))").hide();
+      });
+
+      
+      $('.contents3>img:nth-child(2)').click(function () {
+        $(".detailedimg").show();
+        $("#col").attr("src","./img/sub/gyeongjutum.png");
+        $("#col").show();
+        $("#row").hide();        
+        $(".detailedtxt:nth-of-type(10)").show();
+        $(".detailedtxt:not(:nth-of-type(10))").hide();
+      
+      });
+      $('.contents3>img:nth-child(3)').click(function () {
+        $(".detailedimg").show();
+        $("#col").attr("src","./img/sub/gyeongjukey.png");
+        $("#col").show();
+        $("#row").hide();        
+        $(".detailedtxt:nth-of-type(11)").show();
+        $(".detailedtxt:not(:nth-of-type(11))").hide();
+      
+      });
+      $('.contents4>img:nth-child(1)').click(function () {
+        $(".detailedimg").show();
+        $("#row").attr("src","./img/sub/jeollacup.png");
+        $("#row").show();
+        $("#col").hide();        
+        $(".detailedtxt:nth-of-type(12)").show();
+        $(".detailedtxt:not(:nth-of-type(12))").hide();
+      });
+
+      
+      $('.contents4>img:nth-child(2)').click(function () {
+        $(".detailedimg").show();
+        $("#col").attr("src","./img/sub/jeollatum.png");
+        $("#col").show();
+        $("#row").hide();        
+        $(".detailedtxt:nth-of-type(13)").show();
+        $(".detailedtxt:not(:nth-of-type(13))").hide();
+      
+      });
+      $('.contents4>img:nth-child(3)').click(function () {
+        $(".detailedimg").show();
+        $("#col").attr("src","./img/sub/jeollakey.png");
+        $("#col").show();
+        $("#row").hide();        
+        $(".detailedtxt:nth-of-type(14)").show();
+        $(".detailedtxt:not(:nth-of-type(14)").hide();   });
+
+      $('.contents1>img:nth-child(1)').click(function () {
+        $(".detailedimg").show();
+        $("#row").attr("src", "./img/sub/busancup.png");
+        $("#row").show();
+        $("#col").hide();
+        $(".detailedtxt:nth-of-type(15)").show();
+        $(".detailedtxt:not(:nth-of-type(15))").hide();
+      });
+
+
+      $('.contents1>img:nth-child(2)').click(function () {
+        $(".detailedimg").show();
+        $("#col").attr("src", "./img/sub/busantum.png");
+        $("#col").show();
+        $("#row").hide();
+        $(".detailedtxt:nth-of-type(16").show();
+        $(".detailedtxt:not(:nth-of-type(16))").hide();
+
+      });
+      $('.contents1>img:nth-child(3)').click(function () {
+        $(".detailedimg").show();
+        $("#col").attr("src", "./img/sub/busankey.png");
+        $("#col").show();
+        $("#row").hide();
+        $(".detailedtxt:nth-of-type(17)").show();
+        $(".detailedtxt:not(:nth-of-type(17))").hide();
+      });
+      
+      
+      $('.contents6>img:nth-child(1)').click(function () {
+        $(".detailedimg").show();
+        $("#row").attr("src", "./img/sub/jejucup.png");
+        $("#row").show();
+        $("#col").hide();
+        $(".detailedtxt:nth-of-type(18)").show();
+        $(".detailedtxt:not(:nth-of-type(18))").hide();
+      });
+
+
+      $('.contents6>img:nth-child(2)').click(function () {
+        $(".detailedimg").show();
+        $("#col").attr("src", "./img/sub/jejutum.png");
+        $("#col").show();
+        $("#row").hide();
+        $(".detailedtxt:nth-of-type(19").show();
+        $(".detailedtxt:not(:nth-of-type(19))").hide();
+
+      });
+      $('.contents6>img:nth-child(3)').click(function () {
+        $(".detailedimg").show();
+        $("#col").attr("src", "./img/sub/jejuglass.png");
+        $("#col").show();
+        $("#row").hide();
+        $(".detailedtxt:nth-of-type(20)").show();
+        $(".detailedtxt:not(:nth-of-type(20))").hide();
+      });
+      $('.contents6>img:nth-child(4)').click(function () {
+        $(".detailedimg").show();
+        $("#col").attr("src", "./img/sub/jejukey.png");
+        $("#col").show();
+        $("#row").hide();
+        $(".detailedtxt:nth-of-type(21)").show();
+        $(".detailedtxt:not(:nth-of-type(21))").hide();
+      });
+
+      
+
+
+
+    })</script>
+
+</head>
+
+<body>
+  <header>
+    <nav>
+      <ul class="leftlist">
+
+        <li><a href="#">메뉴</a></li>
+        <li><a href="#">매장</a> </li>
+        <li><a href="#">이야기</a></li>
+        <li><a href="#">협업</a></li>
+
+      </ul>
+      <ul class="rightlist">
+        <li><a href="#">고객센터</a></li>
+        <li id="search"><a href="#"><img src="img/search1.png" alt="search"></a></li>
+        <li><a href="#"><img src="img/person1.png" alt="personmal information"></a></li>
+      </ul>
+    </nav>
+
+    <div id="logo">
+      <a href="index.html"><img src="img/logo1.png" alt="logo1"></a>
+    </div>
+  </header>
+
+  <aside id="aside1">
+    <img src="img/sub/Rectangle1.png" alt="line">
+    <div class="map">
+      <img style="height: 400px; margin:5px;" src="img/sub/Layer0.png" alt="map">
+      <div class="cup">
+        <img style="height: 50px;" src="img/sub/bc.png" alt="busan">
+        <img style="height: 50px;" src="img/sub/cc.png" alt="chougcheng">
+        <img style="height:50px;" src="img/sub/gc.png" alt="gyeongju">
+        <img style="height: 50px;" src="img/sub/jc.png" alt="julla">
+        <img style="height: 50px;" src="img/sub/sc.png" alt="seoul">
+        <img style="height: 50px;" src="img/sub/jjc.png" alt="jeju">
+
+      </div>
+    </div>
+    <div><img id=line2 src="img/sub/Line3.png" alt="line2"></div>
+
+    <div class="product">
+      <div class="description">원하는 지역을 <br> 눌러보세요!</div>
+      <div class="contests contents1">
+        <img style="height: 150px;" class="mugcup" src="img/sub/busancup2.png" alt="busancup">
+        <img src="img/sub/busantum2.png" alt="busantumblr">
+        <img src="img/sub/busankey1.png" alt="busankeyring">
+      </div>
+      <div class="contests contents2">
+        <img style="height: 150px;" class="mugcup" src="img/sub/chungchengcup1.png" alt="chungchengcup">
+        <img src="img/sub/chungchengtum2.png" alt="chungchengtumblr">
+        <img src="img/sub/chungchengkey1.png" alt="chungchengkeyring">
+      </div>
+      <div class="contests contents3">
+        <img style="height: 150px;" class="mugcup" src="img/sub/gyeongjumug1.png" alt="gyeongjumug1">
+        <img src="img/sub/gyeongjutum1.png" alt="gyeongjutum1">
+        <img src="img/sub/gyeongjukey1.png" alt="gyeongjukeyring">
+      </div>
+      <div class="contests contents4">
+        <img style="height: 150px;" class="mugcup" src="img/sub/jeollacup1.png" alt="jeollacup1">
+        <img src="img/sub/jeollatum2.png" alt="jeollatum2">
+        <img src="img/sub/jeollakey1.png" alt="jeollakeyring">
+      </div>
+
+      <div class="contests1 contents5">
+        <img style="height: 150px;" class="mugcup" src="img/sub/seoulcup1.png" alt="seoulcup">
+        <img src="img/sub/seoulntum1.png" alt="seoulntum1">
+        <img src="img/sub/seoultum2.png" alt="seoultum2">
+        <img src="img/sub/seoulkey2.png" alt="seoulkeyring">
+      </div>
+      <div class="contests1 contents6">
+        <img style="height: 150px;" class="mugcup" src="img/sub/jejucup1.png" alt="jejucup1">
+        <img src="img/sub/jejutum2.png" alt="jejutum2">
+        <img src="img/sub/jejuglass1.png" alt="jejuglass1">
+        <img src="img/sub/jejukey1.png" alt="jejukey1">
+      </div>
+    </div>
+    <img src="img/sub/Rectangle1.png" alt="line">
+  </aside>
+
+
+  <aside id="aside2">
+      <div class="detailedimg">
+        <img id="row" src="./img/sub/seoulcup.png" alt="">
+        <img id="col" src="./img/sub/seoultum.png" alt="">
+</div>
+      <div class="detailedtxt">
+        <h2>안녕 서울 머그 355ml</h2>
+        <p>서울의 상징적인 장소와 조형물을 담은 머그입니다.
+          현대적인 건축과 전통의 문화유산들이 어우러져 있는 도시의 특징을 아기자기한 일러스트로 표현했습니다.
+          디자인으로 활용된 요소를 소개하는 영문 브로슈어가 함께 동봉됩니다.
+        </p>
+      </div>
+      <div class="detailedtxt">
+        <h2>SS 안녕 서울 텀블러 355ml</h2>
+        <p>서울의 상징적인 장소와 조형물이 담은 스테인리스 스틸 텀블러입니다.
+          현대적인 건축과 전통의 문화유산들이 어우러져 있는 도시의 특징을 아기자기한 일러스트로 표현했습니다.
+          디자인으로 활용된 요소를 소개하는 영문 브로슈어가 함께 동봉됩니다.
+        </p>
+      </div>
+      <div class="detailedtxt">
+        <h2>SS 코리아 단청 <br> 트로이 텀블러 473ml</h2>
+        <p>본 상품은 한국전통문화대학교 소속의 단청장님께 단청 문양에 대한 검수 및 자문을 받아 디자인된 상품입니다.
+          이에 대해, 판매 수익금의 일부를 국가유산 보호 활동을 위해 국가유산청, 문화유산국민신탁에 기부합니다.
+          일자형 바디 쉐입으로 그립감이 우수하며, 플립 타입의 리드로 음용 시 편리한 상품입니다.
+        </p>
+      </div>
+      <div class="detailedtxt">
+        <h2>안녕 서울 베어리스타 키체인</h2>
+        <p>세종대왕을 모티브로 한 베어리스타 키체인입니다. 실리콘 소재로 제작하였으며, 익선관과 곤룡포로 디테일을 살렸습니다.
+          가방이나 차 키에 달아 포인트를 줄 수 있는 상품입니다. 단청 참장식의 후면에는 SEOUL이 각인되어 있습니다.
+        </p>
+      </div>
+      <div class="detailedtxt">
+        <h2>안녕 충청 머그 355ml</h2>
+        <p>서충청의 상징적인 장소와 조형물을 담은 머그입니다. 충청의 자연과 건축물을 녹색과 아기자기한 일러스트로 담았습니다.
+          디자인으로 활용된 요소를 소개하는 영문 브로슈어가 함께 동봉됩니다.
+        </p>
+      </div>
+      <div class="detailedtxt">
+        <h2>SS 안녕 충청 텀블러 355ml</h2>
+        <p>충청의 상징적인 장소와 조형물을 담은 스테인리스 스틸 텀블러입니다.
+          충청의 자연과 건축물을 녹색과 아기자기한 일러스트로 담았습니다.
+          디자인으로 활용된 요소를 소개하는 영문 브로슈어가 함께 동봉됩니다.
+        </p>
+      </div>
+      <div class="detailedtxt">
+        <h2>안녕 충청 베어리스타 키체인</h2>
+        <p>백제시대의 의복을 입고 있는 충청 베어리스타 키체인입니다.
+          가방이나 차 키에 달아 포인트를 줄 수 있는 상품입니다. 연꽃 참장식의 후면에는 CHUNGCHEONG이 각인되어 있습니다.
+        </p>
+      </div>
+      <div class="detailedtxt">
+        <h2>안녕 경주 머그 355ml</h2>
+        <p>경주의 상징적인 장소와 조형물을 담은 머그입니다.
+          경주의 대표적인 신라 유적과 건축물을 아기자기한 일러스트로 표현했습니다.
+          디자인으로 활용된 요소를 소개하는 영문 브로슈어가 함께 동봉됩니다.
+      
+        </p>
+      </div>
+      <div class="detailedtxt">
+        <h2>SS 안녕 경주 텀블러 355ml</h2>
+        <p>경주의 상징적인 장소와 조형물을 담은 스테인리스 스틸 텀블러입니다.
+          경주의 대표적인 신라 유적지와 건축물을 아기자기한 일러스트로 표현했습니다.
+          디자인으로 활용된 요소를 소개하는 영문 브로슈어가 함께 동봉됩니다.
+        </p>
+      </div>
+      <div class="detailedtxt">
+        <h2>안녕 경주 베어리스타 키체인</h2>
+        <p>선덕여왕을 보티브로 한 경주 베어리스타 키체인입니다.
+          가방이나 차 키에 달아 포인트를 줄 수 있는 상품입니다. 벚꽃 참장식의 후면에는 GYEONGJU가 각인되어 있습니다
+        </p>
+      </div>
+      <div class="detailedtxt">
+        <h2>안녕 전라 머그 355ml</h2>
+        <p>전라의 상징적인 장소와 조형물을 담은 머그입니다.
+          전라의 자연과 관광명소를 다양한 컬러와 아기자기한 일러스트로 담았습니다.
+          디자인으로 활용된 요소를 소개하는 영문 브로슈어가 함께 동봉됩니다.
+        </p>
+      </div>
+      <div class="detailedtxt">
+        <h2>SS 안녕 전라 텀블러 355ml</h2>
+        <p>전라의 상징적인 장소와 조형물을 담은 스테인리스 스틸 텀블러입니다.
+          전라의 자연과 관광명소를 다양한 컬러와 아기자기한 일러스트로 담았습니다.
+          디자인으로 활용된 요소를 소개하는 영문 브로슈어가 함께 동봉됩니다.
+        </p>
+      </div>
+      <div class="detailedtxt">
+        <h2>안녕 전라 베어리스타 키체인</h2>
+        <p>녹차밭의 농부의 모습을 담은 전라 베어리스타 키체인입니다.
+          가방이나 차 키에 달아 포인트를 줄 수 있는 상품입니다. 다기 참장식의 후면에는 JEOLLA가 각인되어 있습니다.
+        </p>
+      </div>
+      <div class="detailedtxt">
+        <h2>안녕 부산 머그 355ml</h2>
+        <p>부산의 상징적인 장소와 조형물이 담은 머그 상품입니다.
+          현대적인 건축과 전통의 문화유산들이 어우러져 있는 도시의 특징을 아기자기한 일러스트로 표현했습니다.
+          디자인으로 활용된 요소를 소개하는 영문 브로슈어가 함께 동봉됩니다.
+        </p>
+      </div>
+      <div class="detailedtxt">
+        <h2>SS 안녕 부산 텀블러 355ml</h2>
+        <p>부산의 상징적인 장소와 조형물이 담은 스테인리스 스틸 텀블러입니다.
+          현대적인 건축과 전통의 문화유산들이 어우러져 있는 도시의 특징을 아기자기한 일러스트로 표현했습니다.
+          디자인으로 활용된 요소를 소개하는 영문 브로슈어가 함께 동봉됩니다.
+        </p>
+      </div>
+      
+      <div class="detailedtxt">
+        <h2>안녕 부산 베어리스타 키체인</h2>
+        <p>부산 바다와 어울리는 마린룩을 입고있는 베어리스타 키체인입니다.
+          가방이나 차 키에 달아 포인트를 줄 수 있는 상품입니다. 배 참장식의 후면에는 BUSAN이 각인되어 있습니다.
+        </p>
+      </div>
+
+      <div class="detailedtxt">
+        <h2>안녕 제주 머그 355ml</h2>
+        <p>제주의 상징적인 장소와 자연을 담은 머그입니다.
+          제주의 봄을 나타내는 노란색과 자연 경관의 특징을 아기자기한 일러스트로 표현했습니다.
+          디자인으로 활용된 요소를 소개하는 영문 브로슈어가 함께 동봉됩니다.
+        </p>
+      </div>
+      <div class="detailedtxt">
+        <h2>SS 안녕 제주 텀블러 355ml</h2>
+        <p >제주의 상징적인 장소와 자연을 담은 스테인리스 스틸 텀블러입니다.
+          제주의 봄을 나타내는 노란색과 아름다운 자연 경관의 특징을 아기자기한 일러스트로 표현했습니다.
+          디자인으로 활용된 요소를 소개하는 영문 브로슈어가 함께 동봉됩니다.
+        </p>
+      </div>
+
+      <div class="detailedtxt">
+        <h2>제주 베어리스타 글라스 콜드컵 591ml</h2>
+        <p>베어리스타 돌하르방으로 디자인한 591ml 용량의 찬 음료 전용 글라스 콜드컵입니다.
+          넉넉한 용량의 콜드컵으로, 스트로로 편리하게 음용할 수 있습니다.
+        </p>
+      </div>
+      <div class="detailedtxt">
+        <h2>안녕 제주 베어리스타 키체인</h2>
+        <p>해녀복을 입고 있는 제주 베어리스타 키체인입니다.
+          가방이나 차 키에 달아 포인트를 줄 수 있는 상품입니다. 돌고래 참장식의 후면에는 JEJU가 각인되어 있습니다.
+        </p>
+      </div>
+      
+      
+      
+      </aside>
+
+
+
+
+
+
+
+  <footer>
+    <p>사업자등록번호 : 201-81-21515
+      <br>
+      주식회사 에스씨케이컴퍼니 대표이사 : 손정현
+      <br>
+      TEL : 1522-3232
+      <br>
+      개인정보 보호책임자 : 이찬우<br>
+      ⓒ 2025 Starbucks Coffee Company. All Rights Reserved.
+    </p>
+  </footer>
+</body>
+
+</html>
